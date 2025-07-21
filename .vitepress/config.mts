@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AC高级命令文档",
   description: "只需1分钟，让你的世界大变样！",
+  base: 'ac-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
