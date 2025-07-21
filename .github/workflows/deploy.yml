@@ -23,7 +23,7 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
-jobs:
+jobs: 
   # 构建工作
   build:
     runs-on: ubuntu-latest
